@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /onepiecejp/admin/
+
+Sitemap: https://mangaatlasjpraw.github.io/onepiecejp/sitemap.xml
