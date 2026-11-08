@@ -4,18 +4,18 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="description" content="One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates.">
-<link rel="canonical" href="https://mangaatlasjpraw.github.io/onepiecejp/">
+<link rel="canonical" href="https://mangaatlas.github.io/onepiecejp/">
 <meta property="og:title" content="One Piece Manga & Anime Guide | Story, Characters and Ratings">
 <meta property="og:description" content="One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates.">
-<meta property="og:image" content="https://mangaatlasjpraw.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg">
+<meta property="og:image" content="https://mangaatlas.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg">
 <title>One Piece Manga & Anime Guide | Story, Characters and Ratings</title>
-<link rel="preconnect" href="https://raw.githubusercontent.com"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="One Piece Manga & Anime Guide | Story, Characters and Ratings"><meta name="twitter:description" content="One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates."><meta name="twitter:image" content="https://mangaatlasjpraw.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"One Piece Manga Guide","url":"https://mangaatlasjpraw.github.io/onepiecejp/","description":"One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates."}</script>
+<link rel="preconnect" href="https://raw.githubusercontent.com"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="One Piece Manga & Anime Guide | Story, Characters and Ratings"><meta name="twitter:description" content="One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates."><meta name="twitter:image" content="https://mangaatlas.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"One Piece Manga Guide","url":"https://mangaatlas.github.io/onepiecejp/","description":"One Piece manga and anime guide covering Eiichiro Oda, Luffy and the Straw Hat Pirates, story arcs, anime adaptation, ratings, and chapter updates."}</script>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="One Piece Manga and Anime Guide — MangaAtlas">
 <meta name="twitter:description" content="Explore One Piece manga and anime details, Eiichiro Oda's pirate adventure, story arcs, main characters, anime status, community ratings, and One Piece chapter updates.">
-<meta name="twitter:image" content="https://mangaatlasjpraw.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg">
+<meta name="twitter:image" content="https://mangaatlas.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg">
 <meta name="theme-color" content="#080a10">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"One Piece Manga and Anime Guide — MangaAtlas","url":"https://mangaatlasjpraw.github.io/onepiecejp/","description":"Explore One Piece manga and anime details, Eiichiro Oda's pirate adventure, story arcs, main characters, anime status, community ratings, and One Piece chapter updates.","inLanguage":"en","about":{"@type":"CreativeWork","name":"One Piece Manga & Anime Guide | Raw Chapters, Story, Characters & Ratings"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"One Piece Manga and Anime Guide — MangaAtlas","url":"https://mangaatlas.github.io/onepiecejp/","description":"Explore One Piece manga and anime details, Eiichiro Oda's pirate adventure, story arcs, main characters, anime status, community ratings, and One Piece chapter updates.","inLanguage":"en","about":{"@type":"CreativeWork","name":"One Piece Manga & Anime Guide | Raw Chapters, Story, Characters & Ratings"}}</script>
 <style>
 :root{color-scheme:dark;--bg:#080a10;--panel:#111725;--line:#283246;--muted:#9ca9bd;--blue:#8eb6ff;--gold:#e5bd75}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 78% 5%,#1b2b48 0,transparent 38%),var(--bg);color:#f5f7fb;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -43,7 +43,7 @@ h3{font-size:19px;margin:26px 0 8px;color:#eef3fb}#about-one-piece p,#one-piece-
  async function loadJson(file){
   const urls=[
    new URL('data/'+file,location.href).href+'?v='+Date.now(),
-   'https://raw.githubusercontent.com/MangaAtlasjpraw/onepiecejp/main/data/'+file+'?v='+Date.now()
+   'https://raw.githubusercontent.com/MangaAtlas/onepiecejp/main/data/'+file+'?v='+Date.now()
   ];
   for(const url of urls){
    try{const response=await fetch(url,{cache:'no-store'});if(response.ok)return await response.json()}catch(error){console.warn('Chapter data source failed:',url,error)}
