@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://mangaatlasjpraw.github.io/onepiecejp/</loc>
+    <loc>https://mangaatlas.github.io/onepiecejp/</loc>
     <lastmod>2026-11-01</lastmod>
-    <image:image><image:loc>https://mangaatlasjpraw.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg</image:loc><image:title>one-piece manga cover</image:title></image:image>
+    <image:image><image:loc>https://mangaatlas.github.io/onepiecejp/manga-covers/one-piece/1793478067152-81MLf-pgXrL._AC_UF1000_1000_QL80_.jpg</image:loc><image:title>one-piece manga cover</image:title></image:image>
   </url>
-  <url><loc>https://mangaatlasjpraw.github.io/onepiecejp/manga.html?slug=one-piece</loc></url>
+  <url><loc>https://mangaatlas.github.io/onepiecejp/manga.html?slug=one-piece</loc></url>
   <url>
-    <loc>https://mangaatlasjpraw.github.io/onepiecejp/chapter.html?slug=one-piece-raw-jap-raw-1198</loc>
+    <loc>https://mangaatlas.github.io/onepiecejp/chapter.html?slug=one-piece-raw-jap-raw-1198</loc>
     <lastmod>2026-11-04</lastmod>
     <image:image>
-      <image:loc>https://raw.githubusercontent.com/MangaAtlasjpraw/onepiecejp/main/chapter-images/one-piece/chapter-one-piece-raw-jap-1198/.upload-1793813079780/0001-_877_2026_6_1_25_.jpg</image:loc>
+      <image:loc>https://raw.githubusercontent.com/MangaAtlas/onepiecejp/main/chapter-images/one-piece/chapter-one-piece-raw-jap-1198/.upload-1793813079780/0001-_877_2026_6_1_25_.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
