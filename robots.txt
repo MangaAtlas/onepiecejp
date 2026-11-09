@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /onepiecejp/admin/
 
-Sitemap: https://mangaatlas.github.io/onepiecejp/sitemap.xml
+Sitemap: https://mangarawatlas.github.io/onepiecejp/sitemap.xml
